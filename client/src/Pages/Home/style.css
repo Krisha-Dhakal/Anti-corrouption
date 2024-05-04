@@ -1,0 +1,81 @@
+.landing__hero {
+    /* background-color: rgb(156, 181, 224); */
+    background-color: #f8f9fa;
+    padding-top: 60px; /* Added padding for better spacing */
+    padding-bottom: 100px; /* Added padding for better spacing */
+}
+
+.my-large {
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.underline {
+    border: none;
+    background-color: rgb(156, 181, 224); /* Blue color */
+    height: 10px; /* Reduced height for better visibility */
+    width: 100%;
+}
+/* .Container-foot{
+    background-color: #f8f9fa;
+    width: 100%;   
+} */
+.lead{
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* Add these styles to style.css */
+
+.Container-foot {
+    padding-top: 50px;
+}
+
+.col-lg-6 {
+    padding: 0 15px; /* Add padding to create space between columns */
+}
+
+.my-2 {
+    margin-bottom: 20px; /* Adjust margin for better spacing */
+}
+
+.notice-card,
+.publication-card {
+    background-color: #fff; /* White background color */
+    border: 1px solid #ddd; /* Add border for distinction */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.notice-card:hover,
+.publication-card:hover {
+    transform: translateY(-5px); /* Add hover effect */
+}
+
+.notice-card h3,
+.publication-card h3 {
+    font-size: 18px; /* Adjust font size */
+    color: #000000; /* Blue title color */
+    margin-bottom: 10px; /* Adjust margin */
+}
+
+.notice-card p,
+.publication-card p {
+    font-size: 16px; /* Adjust font size */
+    color: #6c757d; /* Text color */
+    margin-bottom: 10px; /* Adjust margin */
+}
+
+.notice-card a,
+.publication-card a {
+    color: #0056b3;
+     /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth effect */
+}
+
+.notice-card a:hover,
+.publication-card a:hover {
+    color: rgb(156, 181, 224); /* Change link color on hover */
+}

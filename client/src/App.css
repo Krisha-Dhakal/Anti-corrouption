@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: #051645;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.btn_small_black{
+  color: white;
+    background: #252323;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    line-height: 1;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn_small_brand{
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    line-height: 1;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+}
+.btn_small_brand:hover{
+  background: white;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #41ffe6;
+}
+
+.textCenter{
+  text-align: center;
+}
+.m__5{
+  margin: 15px;
+}
+
+.dFlex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.FlexCard{
+  width: 30vw;
+  padding: 20px;
+  min-height: 33vh;
+  border: 1px solid black;
+}
+.FlexCard .info{
+  font-weight: 700;
+}

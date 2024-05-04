@@ -1,0 +1,32 @@
+.FlexCard {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.dFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.explore-container{
+    background-color: #f3f4f6;
+}
+.text-center1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}

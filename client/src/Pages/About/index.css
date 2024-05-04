@@ -1,0 +1,54 @@
+.welcome-section {
+    background-color: #f8f9fa; /* Light gray background */
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .welcome-section h1 {
+    color: #333; /* Dark gray text color */
+  }
+  
+  .welcome-section p {
+    margin-bottom: 15px; /* Add some space between paragraphs */
+  }
+  
+  .welcome-section h3 {
+    margin-top: 20px; /* Add space above the heading */
+    color: rgb(66, 119, 211); /* Blue text color */
+  }
+body{
+    background-color: rgb(156, 181, 224);
+}
+.main-heading {
+    font-size: 2.5rem;
+    text-align: justify;
+  }
+  p{
+    text-align: justify;
+  }
+  
+  .highlight-text {
+    color: rgb(156, 181, 224); /* Blue color */
+  }
+  
+  .sub-heading {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #000000; /* Gray color */
+  }
+  
+  .image-container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .corrup-image {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
